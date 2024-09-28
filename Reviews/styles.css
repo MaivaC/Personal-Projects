@@ -5,3 +5,73 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+.container{
+    width: 80vw;
+    max-width: 1170px;
+}
+.title{
+    text-align: center;
+   padding-top: 30px;
+   margin-bottom: 4rem;
+
+}
+.underline{
+    height: 0.25rem;
+  width: 5rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+.review{
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+.img-container{
+    width: 100px;
+   
+}
+#person-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    
+  
+}
+h4{
+    text-align: center;
+    color:black;
+    font-size: 3rem;
+    font-weight: 30px;
+    margin-top: 70px;
+
+}
+p{
+text-align: center;
+
+}
+#job-description{
+font-size: 15px;
+font-weight: 25px;
+margin-bottom: 20px;
+}
+#info{
+    font-size: 10px;
+    text-align: justify;
+}
+.button-container{
+    border-radius: 5px;
+    border-color: 2px solid black;
+    color: blueviolet;
+}
+
+.random-btn{
+    text-align: center;
+}
