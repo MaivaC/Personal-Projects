@@ -21,7 +21,7 @@ def computer_guess(x):
 
                 
             elif feedback == "l":
-
+ 
                 low = guess+1
 
             
